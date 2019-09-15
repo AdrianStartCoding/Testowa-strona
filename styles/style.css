@@ -6,10 +6,13 @@ background-color: #FF99CC;
 body{
 	width: 1366px;
 	margin: 0 auto;
-	background-color: 	#FFFFFF;
+	background-color: 	#efefef;
 	padding: 0 20px 20px 20px;
-	border: 5px solid black;
+	border: 0.5px  black;
 }
+nav{
+	padding 0 20px 20px 20px;
+	
   h1 {
 	margin: 0;
 	padding: 20px 0;
