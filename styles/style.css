@@ -1,0 +1,28 @@
+html {
+  font-size: 40px; /* px oznacz 'piksele': bazowy rozmiar tekstu to teraz 10 pikseli wysokości  */
+  font-family: 'Righteous', cursive;/* tu powinnien być font-family wygenerowany w Google fonts */
+background-color: #FF99CC;
+}
+body{
+	width: 1366px;
+	margin: 0 auto;
+	background-color: 	#FFFFFF;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+  h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #FFFF00;
+	text-shadow: 3px 3px 1px black;
+	font-size: 50px;
+	text-align: center;
+}
+p,li{
+    color: orangered
+}
+img {
+  display:inherit;
+  margin: 0 auto;
+}
+
