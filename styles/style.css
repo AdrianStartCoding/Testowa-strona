@@ -1,7 +1,7 @@
 html {
   font-size: 40px; /* px oznacz 'piksele': bazowy rozmiar tekstu to teraz 10 pikseli wysokości  */
   font-family: 'Righteous', cursive;/* tu powinnien być font-family wygenerowany w Google fonts */
-background-color: #6f6f6f;
+background-color: #ffffff;
 }
 body{
 	width: 1366px;
