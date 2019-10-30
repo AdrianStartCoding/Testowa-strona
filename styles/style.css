@@ -68,10 +68,14 @@ background: Red;
 border: 1px solid yellow;
 
 }
-}
+
 img {
   display:inherit;
   margin: 0 auto;
+}
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 ul {
 float: left;
