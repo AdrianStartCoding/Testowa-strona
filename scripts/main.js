@@ -19,29 +19,41 @@ multiply(20,20);function multiply(num1,num2) {
 
 var myImage = document.querySelector('img');
 
-myImage.onclick = function () {
+myImage.onclick = function()
+{
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/steamhotdog.jpg') {
+    
+    if (mySrc === 'images/steamhotdog.jpg')
+    {
       myImage.setAttribute ('src','images/tenor.gif');
-    } else {
+    } 
+    else 
+    {
       myImage.setAttribute ('src','images/steamhotdog.jpg');
+    }
 }
-}
+
 {
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
-function setUserName() {
-  var myName = prompt('Please enter your name.');
-  localStorage.setItem('name', myName);
-  myHeading.textContent = 'May the force be with you, ' + myName;
-}
-if(!localStorage.getItem('name')) {
+function setUserName() 
+    {
+      var myName = prompt('Please enter your name.');
+      localStorage.setItem('name', myName);
+      myHeading.textContent = 'May the force be with you, ' + myName;
+    }
+    
+if(!localStorage.getItem('name'))
+{
   setUserName();
-} else {
+} 
+else 
+{
   var storedName = localStorage.getItem('name');
   myHeading.textContent = 'Hello in Guns and Hot dogs!, ' + storedName;
 }
-myButton.onclick = function() {
+myButton.onclick = function() 
+{
   setUserName();
 }
 }

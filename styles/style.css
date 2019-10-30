@@ -1,5 +1,5 @@
 html {
-  font-size: 40px; /* px oznacz 'piksele': bazowy rozmiar tekstu to teraz 10 pikseli wysokości  */
+  font-size: 25px; /* px oznacz 'piksele': bazowy rozmiar tekstu to teraz 10 pikseli wysokości  */
   font-family: 'Righteous', cursive;/* tu powinnien być font-family wygenerowany w Google fonts */
 background-color: #ffffff;
 }
@@ -90,7 +90,7 @@ list-style: none;
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -120,6 +120,12 @@ list-style: none;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+.col-s-3
+{
+    float:left;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -128,6 +134,7 @@ list-style: none;
   content: "";
   clear: both;
   display: table;
+    text-align: center;
 }
 
 footer {
