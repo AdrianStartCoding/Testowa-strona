@@ -34,7 +34,7 @@ myImage.onclick = function()
 }
 
 {
-var myButton = document.querySelector('button');
+var myButton = document.querySelector('switch');
 var myHeading = document.querySelector('h1');
 function setUserName() 
     {
