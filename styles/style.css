@@ -1,114 +1,137 @@
-html {
-  font-size: 25px; /* px oznacz 'piksele': bazowy rozmiar tekstu to teraz 10 pikseli wysokości  */
+html 
+{
   font-family: 'Righteous', cursive;/* tu powinnien być font-family wygenerowany w Google fonts */
-background-color: #ffffff;
+    background-color: #ffffff;
+    padding
 }
 
-body{
-	width: 1170px;
-	margin: 0 auto;
+body
+{
+    font-size:25px;
+	width: 100%;
 	background-color: 	#ffffff;
-	padding: 0 20px 20px 20px;
+	padding: 0;
 	border: 0.5px solid #efefef;
 }
-  h1 {
+h1 
+{
 	margin: 0;
 	padding: 20px 0;
 	color: #FFFF00;
 	text-shadow: 3px 3px 1px black;
-	font-size: 50px;
 	text-align: center;
 	background-color:whitesmoke;
 }
 
-
-li a {
-color: yellow;
-display: block;
-float: left;
-text-align: left;
-font-size: 1em;
-width: 270px;
-text-decoration: none;
-color: red;
-background-color: yellow;
-padding: 4px 30px;
-margin: 0px 1px 1px 0px;
-border: 1px solid red;
--webkit-border-radius: 5px;
+nav
+{
+    height: 45px;
+    background-color:;
+    
 }
 
-button {
+li a 
+{
     color: yellow;
     display: block;
     float: left;
-    text-align: left;
+    text-align: center;
     font-size: 1em;
-    width: 270px;
+    width: 15%;
+    height: 34px;
+    min-width:153px;
     text-decoration: none;
     color: red;
     background-color: yellow;
     padding: 4px 30px;
-    margin: 0 0 1rem 10rem;
+    margin: 0px 20px 1px 0px;
     border: 1px solid red;
     -webkit-border-radius: 5px;
 }
 
-button:hover {
-color: yellow;
-background: Red;
-border: 1px solid yellow;
+
+button 
+{
+ color: yellow;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1em;
+    width: 15%;
+    min-width:153px;
+    text-decoration: none;
+    color: red;
+    background-color: yellow;
+    padding: 4px 30px;
+    margin: 0px 1px 1px 0px;
+    border: 1px solid red;
+    -webkit-border-radius: 5px;
+}
+
+button:hover
+{
+    color: yellow;
+    background: Red;
+    border: 1px solid yellow;
 }
 
 
 
-li a:hover {
-color: yellow;
-background: Red;
-border: 1px solid yellow;
+li a:hover
+{
+    color: yellow;
+    background: Red;
+    border: 1px solid yellow;
 
 }
 
-img {
+img 
+{
   display:inherit;
   margin: 0 auto;
 }
-img:hover {
+img:hover 
+{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-ul {
-float: left;
-width: 100%;
-padding: 0;
-margin: 0;
-list-style: none;
+ul 
+{
+   
+    float: left;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    list-style: none;
 }
 
 header,body
 {
-    text-align: center
+    text-align: center;
+    padding: 0;
+}
+
+
+.row
+{
+width:100%;
+margin:0 !important;
 }
 
 
 
-* {
-  box-sizing: border-box;
-}
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-
-}
-
-footer {
-  background-color: yellow;
-  color: red;
-  text-align: center;
-  font-size: 30px;
-  padding: 30px;
+.footer 
+{
+padding : 10px;
+position : absolute;
+right: 0;
+bottom: 0;
+left: 0;
+text-align: center;
+background-color: yellow;
+color: red;
+font-size: 1rem;
 }
 
 
